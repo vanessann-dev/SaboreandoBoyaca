@@ -1,2 +1,2 @@
-# SaboreandoBoyaca
-Proyecto diseñado para dar a conocer los platos típicos del departamento de Boyacá-Colombia. 
+# Saboreando Boyacá 💚 🤍 ❤️
+## Website designed to showcase Boyacá's gastronomy. Allow yourself to be surprised by the flavors that Boyacá has to offer!
