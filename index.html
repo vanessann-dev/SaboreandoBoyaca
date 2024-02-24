@@ -1,42 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles/inicio.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles/inicio.css" />
+    <link rel="icon" href="Assets/bandera.png" type="image/x-icon">
     <title>Saboreando Boyacá</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="contenedorHeader">
-        <div class="logo">
-            <img src="Assets/LogoSB.png" alt="Logo">
-        </div>
-        <nav>
-            <ul>  
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nuestra historia Sumerce</a></li>
-                <li><a href="#">Menú tipico boyacense</a></li>
-                <li><a href="#">Contacto</a></li>
-
-            </ul>
-        </nav>
+      <div class="logo">
+        <img src="Assets/LogoSB.png" alt="Logo" />
+      </div>
+      <nav class="cambioColor">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Nuestra historia Sumerce</a></li>
+          <li><a href="#">Menú típico boyacense</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
 
+    <main>
+
     <section class="seccion1">
-        <div class="contenedor1a">
-            <h1>Gastronomía de Boyacá</h1>  
-            <p>Conoce como preparar los mejores platos de la región</p>
-        </div>
+      <div class="contenedor1a">
+        <h1>Gastronomía de Boyacá</h1>
 
-        <div class="contenedor2b">
-            <div class="imgcocido">
-                <img src="Assets/cocido.jpg" alt="#">
-            </div>
-        </div>
-      
+        <p>
+          Boyacá es un departamento de Colombia lleno de sabores auténticos,
+          dentro de sus preparaciones se puede encontrar variedades exquisitas,
+          desde el famoso cocido boyacense hasta el sabajón con ruanita.
+        </p>
+        <p>El departamento es muy conocido por su platos típicos.</p>
+
+        <h2>
+          !Ven y antójate de recetas encantadoras para que compartas con los que
+          más amas!
+        </h2>
+        <button class="btn1">Explora</button>
+      </div>
+
+      <div class="contenedor2b">
+        <img class="imgcocido" src="Assets/cocido.jpg" alt="#" />
+      </div>
     </section>
-  
-</body>
 
-<script src="Js/inicio.js"></script>
+    <section class="cont2">
+
+        <div>
+            <h2 class="titleSection2">Platos representativos</h2>
+        </div>
+
+        <div class="contenedorImagenes">
+
+            <div class="contenedorItem">
+                <div >
+                    <img class="imgP" src="Assets/almojabana.png" alt="#" />
+                </div>
+                <div class="tarjet">
+                    <h3>Almojábana</h3>
+                    <p>📌Cuajada - Harina de Maíz - Leche</p>
+                    <button>Ver más</button>
+                </div>
+            </div>
+
+            <div class="contenedorItem">
+                <div >
+                    <img class="imgP"  src="Assets/sabajon.png" alt="#" />
+                </div>
+                <div class="tarjet">
+                    <h3>Sabajón</h3>
+                    <p>📌Yema de huevo - Azúcar - Licor</p>
+                    <button>Ver más</button>
+                </div>
+            </div>
+            
+            <div class="contenedorItem">
+                <div>
+                    <img class="imgP"  src="Assets/arepaBoyacence.png" alt="#" />
+                </div>
+                <div class="tarjet">
+                    <h3>Arepa Boyacense</h3>
+                    <p>📌Cuajada ó queso - Harina de Maíz - Sal</p>
+                    <button>Ver más</button>
+                </div>
+            </div>
+
+            <div class="contenedorItem">
+                <div>
+                    <img class="imgP"  src="Assets/mazamorraDulce.png" alt="#" />
+                </div>  
+                <div class="tarjet">
+                    <h3>Mazamorra Dulce</h3>
+                    <p>📌Cuajada - Harina de Maíz - Leche</p>
+                    <button>Ver más</button>
+                </div>
+            </div> 
+        </div>
+        <div class="contBtn2">
+            <button class="btn2">Explora más</button>
+        </div>
+
+    </section>
+
+    <section>
+      <div class="contenedorTestimonios">
+        <div >
+          <h2 class="titleSection2">Testimonios sobre la gastronomía boyacense</h2>
+      </div>
+
+      <div class="Testimonios">
+        <div class="Test">
+          <img src="Assets/mujer.png" alt="Cliente 1">
+          <p>
+            "La comida en Boyacá fue toda una experiencia para el paladar. 
+            Probé las arepas boyacenses con queso y quedé fascinada. 
+            ¡La combinación de texturas y sabores es simplemente deliciosa! 
+            Sin duda, volvería solo por esa experiencia gastronómica."
+          </p>
+          <h4>María</h4>
+        </div>
+
+        <div class="Test">
+          <img src="Assets/hombre.png" alt="Cliente 1">
+          <p>
+            "¡Las truchas frescas de Boyacá son incomparables! Las preparan 
+            de maneras tan diversas y deliciosas. Probé desde trucha a la 
+            parrilla hasta trucha con salsas exquisitas. Definitivamente, 
+            un paraíso para los amantes del pescado fresco."
+          </p>
+          <h4>Alejandro</h4>
+        </div>
+
+        <div class="Test">
+          <img src="Assets/hombre.png" alt="Cliente 1">
+          <p>
+            "Explorar la gastronomía de Boyacá fue una de las mejores partes 
+            de mi viaje. La mazamorra dulce me conquistó desde el primer bocado.
+             Además, la amabilidad de la gente al explicarme las recetas y 
+             compartir sus tradiciones hizo que cada comida fuera memorable."
+          </p>
+          <h4>Jhon</h4>
+        </div>
+
+        <div class="Test">
+          <img src="Assets/mujer.png" alt="Cliente 1">
+          <p>
+            "La arepa boyacense es simplemente única. Esa combinación de harina 
+            de maíz y queso es irresistible. Cada vez que veía un puesto de 
+            arepas, no podía resistirme a probar una más. ¡Es un verdadero
+             deleite para el paladar!"
+          </p>
+          <h4>Shofie</h4>
+        </div>
+
+
+      </div>
+      </div>
+        
+
+
+
+    </section>
+
+
+
+  </body>
+</main>
+  <script src="Js/inicio.js"></script>
 </html>
