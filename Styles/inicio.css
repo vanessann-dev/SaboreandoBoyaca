@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/*Estilos del Header*/
+
+header{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 1px;
+position: fixed;
+top: 0%;
+left: 0%;
+width: 100%;
+transition: 0.7s;
+}
+
+header.abajo{
+    background-color: #16A085;
+}
+
+
+.logo img{
+    display: inline-block;
+    width: 15rem;
+}
+
+nav{
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    color: #16A085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul{
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav ul li{
+    margin-right: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: 0.7s;
+
+}
+.cambioColor a:hover{
+    color: #A93226;
+    transition: color 0.3s ease;
+
+}
+
+/*Sección1 (Gastronomía de Boyacá*/
+h1 {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-size: 50px;
+  }
+
+h2{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+}
+
+p{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.seccion1{
+    display: flex;
+    justify-content:center;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 15rem;
+    background-color: #F2F3F4 ;
+  
+}
+
+.contenedor1a{
+    margin-right: 1rem;
+    margin-left: 2rem;
+    max-width: 100%;
+    
+}
+
+.contenedor2b{
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;  
+    max-width: 100%;  
+    margin-bottom: 3rem;
+}
+
+
+.imgcocido{
+    display: flex;
+    justify-content: right;
+    width: 45rem;
+    height: 35rem;
+  
+}
+
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    padding: 10px 20px;
+    font-size: 18px;
+    width: 12rem;
+    height: 3rem;
+    background-color: #A93226;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/*Sección 2 (Platos Representativos)*/
+
+.cont2{
+    margin-top: 4rem;
+}
+
+h3{
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.titleSection2{
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    
+}
+.contenedorItem{
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+   
+    transition: box-shadow 0.3s ease;
+}
+
+.contenedorImagenes{
+   display: flex;
+   justify-content: space-around;
+
+}
+.imgP{
+    width: 300px;
+    height: 300px;
+    gap:1rem;
+}
+
+
+.tarjet{
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 3rem;
+}
+
+.tarjet p{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.tarjet button{
+    padding: 10px 15px;
+    background-color: #A93226;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contBtn2{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    width: 12rem;
+    height: 3rem;
+    background-color: #A93226;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+/*Sección 3 (Testimonios sobre la gastronomía boyacense)*/
+
+.contenedorTestimonios{
+    margin-top: 5rem;
+    background-color: #EAECEE ;
+}
+
+.Testimonios{
+
+}
